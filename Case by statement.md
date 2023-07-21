@@ -21,6 +21,6 @@ GROUP BY
   age_bucket
 ````
 
-Schema: 
+## Schema: 
 
 ![image](https://github.com/karansinghuc/SQL/assets/140108687/3ad63f45-9a96-4a83-97f3-43a83f194278)
