@@ -1,6 +1,6 @@
 ## Question
 
-#### Question 1. Write a query to obtain a breakdown of the time spent sending vs. opening snaps as a percentage of total time spent on these activities grouped by age group. Round the percentage to 2 decimal places in the output.
+#### Question: Write a query to obtain a breakdown of the time spent sending vs. opening snaps as a percentage of total time spent on these activities grouped by age group. Round the percentage to 2 decimal places in the output.
 
 
 ````SQL
@@ -21,6 +21,6 @@ GROUP BY
   age_bucket
 ````
 
-Questions 1 Schema: 
+Schema: 
 
 ![image](https://github.com/karansinghuc/SQL/assets/140108687/3ad63f45-9a96-4a83-97f3-43a83f194278)
