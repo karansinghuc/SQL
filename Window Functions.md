@@ -1,4 +1,4 @@
-#### Question 1. Write a query to find the top 5 artists whose songs appear most frequently in the Top 10 of the global_song_rank table. Display the top 5 artist names in ascending order, along with their song appearance ranking.
+#### Question: Write a query to find the top 5 artists whose songs appear most frequently in the Top 10 of the global_song_rank table. Display the top 5 artist names in ascending order, along with their song appearance ranking.
 
 ````SQL
 WITH ap AS (
@@ -28,6 +28,19 @@ WHERE regular_rank <= 6
 ORDER BY density_rank, artist_name
 ````
 
-Questions 1 Schema: 
+#### Schema: 
+        +------------------+        +---------------------+       +---------------------+
+        |      artists     |        |        songs        |       |   global_song_rank  |
+        +------------------+        +---------------------+       +---------------------+
+        | artist_id (PK)   |        | song_id (PK)        |       | day (PK)            |
+        | artist_name      |--------| artist_id (FK)      |-------| song_id (FK)        |
+        +------------------+        +---------------------+       | rank                |
+                                                                   +---------------------+
+
+Legend:
+
+PK: Primary Key
+
+FK: Foreign Key
 
 
