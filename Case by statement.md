@@ -1,8 +1,4 @@
-## Introduction
-
-Below are some SQL example questions, answers, and schemas designed to showcase a technical skill
-
-## Questions
+## Question
 
 #### Question 1. Write a query to obtain a breakdown of the time spent sending vs. opening snaps as a percentage of total time spent on these activities grouped by age group. Round the percentage to 2 decimal places in the output.
 
