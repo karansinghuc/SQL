@@ -3,7 +3,7 @@
 Write a query to obtain a breakdown of the time spent sending vs. opening snaps as a percentage of total time spent on these activities grouped by age group. Round the percentage to 2 decimal places in the output.
 
 
-`````SQL
+```SQL
 SELECT 
   age_bucket,
     ROUND(
@@ -19,7 +19,7 @@ INNER JOIN age_breakdown ab
 WHERE activity_type IN ('open','send')
 GROUP BY 
   age_bucket;
-`````
+```
 
 ## Schema: 
 
