@@ -23,4 +23,4 @@ GROUP BY
 
 ## Schema: 
 
-https://github.com/karansinghuc/SQL/blob/5dac7ca384b088f2334e3507d23007a204c1e52a/Capture.JPG
+
